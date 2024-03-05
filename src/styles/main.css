@@ -39,6 +39,8 @@ body {
 }
 
 .container__left {
+    display: flex;
+    /*Para aplicar as demais configurações*/
     width: 35%;
     min-width: 380px;
     flex-direction: column;
@@ -129,4 +131,12 @@ body {
     border: 1px solid #fff;
     width: 8rem;
     border-radius: 8px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
 }
